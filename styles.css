@@ -8,8 +8,8 @@
 /* General Styles */
 body {
   font-family: 'Roboto', sans-serif;
-  color: #2c3750;
-  background-color: #f5f6f8;
+  color: #2c3e50; /* Dark Gray-Blue */
+  background-color: #fafafa; /* Light Gray */
 }
 
 .container {
@@ -21,7 +21,7 @@ body {
 
 /* Navigation */
 nav {
-  background-color: #1abc9c;
+  background-color: #333; /* Dark Gray-Black */
   color: #fff;
   padding: 15px 0;
   position: fixed;
@@ -58,13 +58,13 @@ nav .container {
 }
 
 .nav-links a:hover {
-  background-color: #16a085;
+  background-color: #555; /* Medium Gray */
 }
 
 /* Hero Section */
 #hero {
-  background: url('your-background-image.jpg') center/cover no-repeat;
-  color: #fff;
+  background: #f5f5f5;
+  color: #333;
   padding: 140px 0;
   text-align: center;
   margin-top: 60px;
@@ -72,24 +72,27 @@ nav .container {
 
 #hero h2 {
   font-size: 2.5rem;
+  color: #333;
 }
 
 #hero p {
   font-size: 1.2rem;
   max-width: 700px;
   margin: 20px auto;
+  color: #666; /* Medium Gray */
 }
 
-/* About Section */
+/* Section Styles */
 #about, #projects, #skills, #contact {
   padding: 60px 0;
+  background: #f8f8f8;
 }
 
 #about h2, #projects h2, #skills h2, #contact h2 {
   text-align: center;
   margin-bottom: 20px;
   font-size: 2rem;
-  color: #2980b9;
+  color: #1abc9c; /* Green */
 }
 
 #about p, #contact p {
@@ -97,7 +100,7 @@ nav .container {
   margin: auto;
   text-align: center;
   font-size: 1.1rem;
-  color: #7f8c8d;
+  color: #333;
 }
 
 /* Projects Section */
@@ -125,17 +128,17 @@ nav .container {
 
 .project-item h3 {
   font-size: 1.5rem;
-  color: #1abc9c;
+  color: #1abc9c; /* Green */
   margin-bottom: 8px;
 }
 
 .project-item p {
-  color: #7f8c8d;
+  color: #666; /* Medium Gray */
 }
 
 .project-item a {
   color: #fff;
-  background-color: #2980b9;
+  background-color: #333; /* Dark Gray-Black */
   padding: 8px 16px;
   border-radius: 4px;
   text-decoration: none;
@@ -143,7 +146,7 @@ nav .container {
 }
 
 .project-item a:hover {
-  background-color: #3498db;
+  background-color: #555;
 }
 
 /* Skills Section */
@@ -156,7 +159,7 @@ nav .container {
 }
 
 .skills-list li {
-  background: #1abc9c;
+  background: #1abc9c; /* Green */
   color: #fff;
   padding: 10px 20px;
   border-radius: 5px;
@@ -165,12 +168,12 @@ nav .container {
 }
 
 .skills-list li:hover {
-  background-color: #16a085;
+  background-color: #16a085; /* Slightly darker green */
 }
 
 /* Contact Section */
 #contact a {
-  color: #2980b9;
+  color: #1abc9c; /* Green */
   text-decoration: none;
   font-weight: bold;
   border-bottom: 2px solid transparent;
@@ -178,13 +181,13 @@ nav .container {
 }
 
 #contact a:hover {
-  color: #1abc9c;
-  border-color: #1abc9c;
+  color: #333;
+  border-color: #333;
 }
 
 /* Footer */
 footer {
-  background-color: #1abc9c;
+  background-color: #333;
   color: #fff;
   text-align: center;
   padding: 15px 0;
