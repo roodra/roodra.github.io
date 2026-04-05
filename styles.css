@@ -7,16 +7,16 @@
 
 /* ── Design Tokens ─────────────────────────────────────────── */
 :root {
-  --bg:         #f2ead8;
-  --surface:    #e9dfc9;
-  --card:       #f8f3e8;
-  --border:     #c8b99a;
-  --accent:     #7a4f1e;
-  --accent-dim: rgba(122,79,30,0.1);
-  --accent2:    #b07d3a;
-  --text:       #2c1f0e;
-  --text-muted: #7a6550;
-  --heading:    #1a1208;
+  --bg:         #1a2a4a;
+  --surface:    #1e3256;
+  --card:       #243a62;
+  --border:     #2e4f82;
+  --accent:     #c9922a;
+  --accent-dim: rgba(201,146,42,0.12);
+  --accent2:    #e8b84b;
+  --text:       #e2e8f0;
+  --text-muted: #8899b0;
+  --heading:    #f0f6ff;
   --nav-h:      70px;
 }
 
@@ -35,7 +35,7 @@ body::before {
   content: '';
   position: fixed;
   inset: 0;
-  background-image: radial-gradient(rgba(122,79,30,0.07) 1px, transparent 1px);
+  background-image: radial-gradient(rgba(201,146,42,0.06) 1px, transparent 1px);
   background-size: 32px 32px;
   pointer-events: none;
   z-index: 0;
@@ -77,7 +77,7 @@ nav {
   width: 100%;
   height: var(--nav-h);
   z-index: 100;
-  background: rgba(242,234,216,.85);
+  background: rgba(26,42,74,.85);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
   border-bottom: 1px solid var(--border);
@@ -182,7 +182,7 @@ nav .container {
   object-fit: cover;
   object-position: center 18%;
   border: 3px solid var(--border);
-  box-shadow: 0 8px 32px rgba(122,79,30,.15);
+  box-shadow: 0 8px 32px rgba(0,0,0,.4);
 }
 
 /* ── Section shared ────────────────────────────────────────── */
@@ -381,7 +381,7 @@ section:nth-child(even) { background: var(--surface); }
   font-weight: 500;
   background: var(--accent-dim);
   color: var(--accent);
-  border: 1px solid rgba(122,79,30,.25);
+  border: 1px solid rgba(201,146,42,.25);
   padding: 3px 10px;
   border-radius: 20px;
 }
